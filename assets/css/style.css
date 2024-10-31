@@ -1,4 +1,24 @@
+@font-face {
+  font-family: 'Cyberflash';
+  src: url('../font/cyberflash.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'Cyberway';
+  src: url('../font/cyberway.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-cyberflash {
+  font-family: 'Cyberflash', sans-serif;
+}
+
+.font-cyberway {
+  font-family: 'Cyberway', sans-serif;
+}
 
 
 .button-48 {

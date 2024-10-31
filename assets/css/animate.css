@@ -13,3 +13,31 @@
 .animate_bounce {
   animation: bounce 1s infinite;
 }
+
+
+
+.RightToLeft {
+  animation: RightToLeft 10s infinite linear;
+}
+
+@keyframes  RightToLeft {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.LeftToRight {
+  animation: LeftToRight 10s infinite linear;
+}
+
+@keyframes  LeftToRight {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
