@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/script.js" defer></script>
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <script src="assets/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/script.js" defer></script>    
     <title>Home</title>
 </head>
 <body class="bg-dark" onload="muatPartial('navbar', 'partials/navbar.html'); muatPartial('footer', 'partials/footer.html');" style="display: flex; flex-direction: column; height: 100vh;">
@@ -21,11 +22,11 @@
                         <button class="button-48 text-white fw-bold" role="button"><span class="text">Play Now</span></button>
                     </div>                                
                 </div>
-                <div class="position-absolute bottom-0 start-50 translate-middle-x">
-                    <button class="btn" style="border: none; background: none;">
+                <div class="position-absolute bottom-0 start-50 translate-middle-x mb-3">
+                    <button class="btn p-0 animate_bounce" style="border: none; background: none;">
                         <img src="assets/img/arrow.png" alt="Button Icon" style="width: 60px; height: 60px;">
                     </button>
-                </div>      
+                </div>    
             </header>
         </section>
     </main>
